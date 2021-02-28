@@ -15,3 +15,8 @@ export function Card(props) {
 		</div>
 	);
 }
+
+Card.propTypes = {
+	name: PropTypes.string,
+	pic: PropTypes.string
+};

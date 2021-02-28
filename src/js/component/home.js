@@ -13,9 +13,9 @@ export function Home() {
 			<Header />
 			<Jumbotron />
 			<div className="d-flex flex-row">
-				<Card />
-				<Card />
-				<Card />
+				<Card name="1. Some quick example text to build on the card title and make up the bulk of the cards content." />
+				<Card name="2. Some quick example text to build on the card title and make up the bulk of the cards content." />
+				<Card name="3. Some quick example text to build on the card title and make up the bulk of the cards content." />
 			</div>
 			<Footer />
 		</div>

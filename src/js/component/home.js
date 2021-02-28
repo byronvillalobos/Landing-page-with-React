@@ -12,7 +12,11 @@ export function Home() {
 		<div>
 			<Header />
 			<Jumbotron />
-			<Card />
+			<div className="d-flex flex-row">
+				<Card />
+				<Card />
+				<Card />
+			</div>
 			<Footer />
 		</div>
 	);

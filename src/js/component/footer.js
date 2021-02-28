@@ -2,5 +2,9 @@ import React from "react";
 
 //create your first component
 export function Footer() {
-	return <h1>Hello, world!</h1>;
+	return (
+		<div className="text-muted text-center heigth:300px border border-light">
+			Place sticky footer content here.
+		</div>
+	);
 }
